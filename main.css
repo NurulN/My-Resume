@@ -1,0 +1,73 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://img-aws.ehowcdn.com/877x500p/cache.gettyimages.com/xc/89680618.jpg?v=1&c=EWSAsset&k=2&d=910C62E22B9F47AAE26F61C26A84759F302EEE1D166A8A33C9E2F385661DD34E');
+  background-size: cover;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.col-sm-12 {
+  margin-top: 50px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer li img {
+  width: 100px;
+  height: 100px;
+}
